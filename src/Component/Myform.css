@@ -1,0 +1,43 @@
+input {
+    width:240px;
+    height:60px;
+    
+    border-radius:10px;
+    border:1px solid black;
+    padding:5px 20px;
+    }
+    #sub {
+        background-color: blue;
+        color:rgb(255, 255, 255);
+        width:100%;
+        margin-top: 20px;
+    }
+    label {
+        margin:10px 0px;
+    }
+    #mes {
+        width: 100%;
+    }
+    @media(max-width:768px){
+        input {
+           width:370px;
+            margin:20px;
+            border-radius:10px;
+            border:1px solid black;
+            padding:5px 20px;
+            }
+            label {
+                margin:4px;
+            }
+            #mes {
+                width: 90%;
+            }
+            #sub {
+                background-color: blue;
+                color:rgb(255, 255, 255);
+                width:90%;
+                margin-top: 20px;
+            }
+    }
+    
+    

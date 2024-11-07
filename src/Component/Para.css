@@ -1,0 +1,46 @@
+.container-100 {
+    width:100%;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding:30px;
+    
+}
+.container-100 h1 {
+    padding-top: 15px;
+    color:white;
+}
+.container-100 button {
+   padding:10px;
+    background-color: #000;
+    cursor: pointer;
+    color:white;
+    margin:70px 20px;
+    border:1px solid white;
+    border-radius: 5px;
+}
+
+.container-100 button:hover {
+    background-color: rgb(195, 156, 219);
+    color:black;
+}
+
+.container-100  p {
+    color:white;
+    width:70%;
+    margin:auto;
+    
+
+}
+@media(max-width:768px){
+    .container-100 button {
+      width:70%;
+        background-color: #000;
+        cursor: pointer;
+        color:white;
+        margin:4px 0px;
+        border:1px solid white;
+        border-radius: 5px;
+    }   
+}
